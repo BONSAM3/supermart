@@ -1,11 +1,11 @@
 @media (max-width: 920px) {
-  .icon {
+  .icons {
     background-color: orange;
     display: inline-flex;
     padding: 1rem;
     margin-bottom: 1rem;
   }
-  .icon i {
+  .icons i {
     margin-right: 0.5rem;
   }
   .header-content {
