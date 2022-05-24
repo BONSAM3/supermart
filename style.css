@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#body {
+  padding: 2rem;
+  background: linear-gradient(to right, rgb(225, 15, 148), rgb(155, 15, 215));
+  box-sizing: border-box;
+}
+p {
+  font-size: 1rem;
+}
+h1 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.125rem;
+}
+h4 {
+  font-size: 1.2rem;
+}
+main {
+  text-align: center;
+}
+.icon {
+  display: none;
+  /* visibility: hidden; */
+  /* opacity: 0; */
+  /* height: 0; */
+}
+.header-content {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.header-content h2 {
+  background-color: orange;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.wrap-content {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1rem;
+  width: 100%;
+}
+.box {
+  background-image: url(images/taco.jpg);
+  color: #000;
+  min-height: 500px;
+  background-position: center;
+  background-size: cover;
+}
+.wrap-content2 {
+  display: grid;
+  gap: 1rem;
+}
+.wrap-content2 div {
+  background-color: orange;
+}
+.box2 {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  padding: 2rem;
+  /* width: 100%; */
+}
+.price {
+  font-size: 100px;
+  font-weight: lighter;
+}
+.name {
+  font-size: 20px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+}
+.box h1 {
+  background-color: orange;
+  margin-left: 2rem;
+  padding: 0.5rem;
+}
+.box h5 {
+  background-color: orange;
+  margin-left: 2rem;
+  padding: 0.5rem;
+}
+.content-product {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.feature {
+  padding: 3rem;
+  background-color: #fff;
+  margin-top: 1rem;
+  border: 1px solid black;
+  line-height: 2rem;
+}
+.cont {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 3rem;
+  background-color: #fff;
+  margin-top: 1rem;
+}
+.logo img {
+  width: 100%;
+}
+button {
+  background-color: yellow;
+  border-style: none;
+  padding: 0.5rem 2rem;
+  /* width: 40%; */
+  border-radius: 1rem;
+}
+.feature p {
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: bolder;
+}
+.images {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  /* margin: 1rem; */
+  gap: 1rem;
+}
+.photo img {
+  object-position: center;
+  width: 100%;
+}
