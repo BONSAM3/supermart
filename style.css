@@ -36,8 +36,10 @@ main {
 }
 .header-content h2 {
   background-color: orange;
-  padding: 0.5rem;
+  padding: 4% 2%;
   border-radius: 5px;
+  display: inline-block;
+  font-size: 1.25rem;
 }
 .wrap-content {
   text-align: center;
@@ -92,18 +94,23 @@ main {
   margin-left: 2rem;
   padding: 0.5rem;
 }
+.product {
+  width: 100%;
+}
 .content-product {
   text-align: center;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
+  width: 100%;
+  margin: 2rem 0;
 }
 .feature {
-  padding: 3rem;
+  padding: 3rem 0;
   background-color: #fff;
-  margin-top: 1rem;
   border: 1px solid black;
   line-height: 2rem;
+  width: 100%;
 }
 .cont {
   display: grid;
@@ -111,6 +118,10 @@ main {
   padding: 3rem;
   background-color: #fff;
   margin-top: 1rem;
+  align-items: center;
+}
+.word {
+  width: 100%;
 }
 .logo img {
   width: 100%;
